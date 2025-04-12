@@ -1,0 +1,1313 @@
+{
+  "version": "41.0.0",
+  "artifacts": {
+    "amplify-profilesapp-clint-sandbox-71fbfeac2c.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-profilesapp-clint-sandbox-71fbfeac2c.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-profilesapp-clint-sandbox-71fbfeac2c": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-profilesapp-clint-sandbox-71fbfeac2c.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c92d5a9065e15ad8a7ed7f2efc635aa128959008a2e5e24de0f5a3835b0afc43.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-profilesapp-clint-sandbox-71fbfeac2c.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-profilesapp-clint-sandbox-71fbfeac2c.assets"
+      ],
+      "metadata": {
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/UserPool/PostConfirmationCognito": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolPostConfirmationCognitoE7E727CF"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/reference-to-amplifyprofilesappclintsandbox71fbfeac2cfunctionNestedStackfunctionNestedStackResource8C580D68Outputs.amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaC05566ABArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cfunctionNestedStackfunctionNestedStackResource8C580D68Outputsamplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaC05566ABArn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthUserPool243AD0EDRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthUserPool243AD0EDRef"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthUserPoolAppClient293B4A46Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthUserPoolAppClient293B4A46Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthIdentityPool41DD6AF1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthIdentityPool41DD6AF1Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthauthenticatedUserRole53E6BCC3Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthauthenticatedUserRole53E6BCC3Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth/amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthunauthenticatedUserRole28ED0921Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthunauthenticatedUserRole28ED0921Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/groups": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "groups"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/post-confirmation-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleD88F89BD"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/post-confirmation-lambda/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleDefaultPolicyCD4BF2C1"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/post-confirmation-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambda195D98D2"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaC05566ABArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaC05566ABArn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaC05566ABRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaC05566ABRef"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function/amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaServiceRoleEBD5F6EERef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaServiceRoleEBD5F6EERef"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/reference-to-amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27ApiId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager/amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent2F1D60CFArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent2F1D60CFArn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/CustomTableUserProfileTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/GetAttUserProfileTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttUserProfileTableStreamArn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/GetAttUserProfileTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttUserProfileTableName"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileIAMRole"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileIAMRoleA4E2934B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileIAMRole"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileTable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileTable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/QuerygetUserProfileauth0Function/QuerygetUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetUserProfileauth0FunctionQuerygetUserProfileauth0FunctionAppSyncFunctionDAD22839"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/QuerygetUserProfilepostAuth0Function/QuerygetUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetUserProfilepostAuth0FunctionQuerygetUserProfilepostAuth0FunctionAppSyncFunction92890504"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/QueryGetUserProfileDataResolverFn/QueryGetUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetUserProfileDataResolverFnQueryGetUserProfileDataResolverFnAppSyncFunction8EB8BD57"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/queryGetUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/QuerylistUserProfilesauth0Function/QuerylistUserProfilesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistUserProfilesauth0FunctionQuerylistUserProfilesauth0FunctionAppSyncFunction468B41DC"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistUserProfilesauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/QuerylistUserProfilespostAuth0Function/QuerylistUserProfilespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistUserProfilespostAuth0FunctionQuerylistUserProfilespostAuth0FunctionAppSyncFunction01122A7A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistUserProfilespostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/QueryListUserProfilesDataResolverFn/QueryListUserProfilesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListUserProfilesDataResolverFnQueryListUserProfilesDataResolverFnAppSyncFunctionA05E8B7A"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListUserProfilesDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/queryListUserProfilesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listUserProfiles"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationcreateUserProfileinit0Function/MutationcreateUserProfileinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateUserProfileinit0FunctionMutationcreateUserProfileinit0FunctionAppSyncFunction7EFE9ED4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateUserProfileinit0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationcreateUserProfileauth0Function/MutationcreateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateUserProfileauth0FunctionMutationcreateUserProfileauth0FunctionAppSyncFunctionCF3841B8"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationcreateUserProfilepostAuth0Function/MutationcreateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateUserProfilepostAuth0FunctionMutationcreateUserProfilepostAuth0FunctionAppSyncFunctionF0C8FEFF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationCreateUserProfileDataResolverFn/MutationCreateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateUserProfileDataResolverFnMutationCreateUserProfileDataResolverFnAppSyncFunction120FE646"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/mutationCreateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationupdateUserProfileinit0Function/MutationupdateUserProfileinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateUserProfileinit0FunctionMutationupdateUserProfileinit0FunctionAppSyncFunction9A840BAA"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateUserProfileinit0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationupdateUserProfileauth0Function/MutationupdateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateUserProfileauth0FunctionMutationupdateUserProfileauth0FunctionAppSyncFunction7E8F945B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationupdateUserProfilepostAuth0Function/MutationupdateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateUserProfilepostAuth0FunctionMutationupdateUserProfilepostAuth0FunctionAppSyncFunction206AFA76"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationUpdateUserProfileDataResolverFn/MutationUpdateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateUserProfileDataResolverFnMutationUpdateUserProfileDataResolverFnAppSyncFunction1707D92F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/mutationUpdateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationdeleteUserProfileauth0Function/MutationdeleteUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteUserProfileauth0FunctionMutationdeleteUserProfileauth0FunctionAppSyncFunction4A3AC4FD"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationdeleteUserProfilepostAuth0Function/MutationdeleteUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteUserProfilepostAuth0FunctionMutationdeleteUserProfilepostAuth0FunctionAppSyncFunctionEE3F21F4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/MutationDeleteUserProfileDataResolverFn/MutationDeleteUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteUserProfileDataResolverFnMutationDeleteUserProfileDataResolverFnAppSyncFunction4835094F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/mutationDeleteUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptiononCreateUserProfileauth0Function/SubscriptiononCreateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateUserProfileauth0FunctionSubscriptiononCreateUserProfileauth0FunctionAppSyncFunctionD90BBD82"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptiononCreateUserProfilepostAuth0Function/SubscriptiononCreateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateUserProfilepostAuth0FunctionSubscriptiononCreateUserProfilepostAuth0FunctionAppSyncFunctionD659A080"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptionOnCreateUserProfileDataResolverFn/SubscriptionOnCreateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateUserProfileDataResolverFnSubscriptionOnCreateUserProfileDataResolverFnAppSyncFunction08AFEB08"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/subscriptionOnCreateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptiononUpdateUserProfileauth0Function/SubscriptiononUpdateUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateUserProfileauth0FunctionSubscriptiononUpdateUserProfileauth0FunctionAppSyncFunction48B7E90B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptiononUpdateUserProfilepostAuth0Function/SubscriptiononUpdateUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateUserProfilepostAuth0FunctionSubscriptiononUpdateUserProfilepostAuth0FunctionAppSyncFunction446153A7"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptionOnUpdateUserProfileDataResolverFn/SubscriptionOnUpdateUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateUserProfileDataResolverFnSubscriptionOnUpdateUserProfileDataResolverFnAppSyncFunctionBCF119CA"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/subscriptionOnUpdateUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptiononDeleteUserProfileauth0Function/SubscriptiononDeleteUserProfileauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteUserProfileauth0FunctionSubscriptiononDeleteUserProfileauth0FunctionAppSyncFunction4558BD0E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteUserProfileauth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptiononDeleteUserProfilepostAuth0Function/SubscriptiononDeleteUserProfilepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteUserProfilepostAuth0FunctionSubscriptiononDeleteUserProfilepostAuth0FunctionAppSyncFunction3E69A1F9"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteUserProfilepostAuth0Function"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/SubscriptionOnDeleteUserProfileDataResolverFn/SubscriptionOnDeleteUserProfileDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteUserProfileDataResolverFnSubscriptionOnDeleteUserProfileDataResolverFnAppSyncFunction6EDD6652"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteUserProfileDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/subscriptionOnDeleteUserProfileResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteUserProfileResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteUserProfile"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/UserProfileProfileOwnerDataResolverFn/UserProfileProfileOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileProfileOwnerDataResolverFnUserProfileProfileOwnerDataResolverFnAppSyncFunction8169467C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileProfileOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/userProfileProfileOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileprofileOwnerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile.profileOwner"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/reference-to-amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceAC6E3331Outputs.amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent2F1D60CFArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceAC6E3331Outputsamplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyTableManagerTableManagerCusto48A7E2E5"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/reference-to-amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27ApiId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/reference-to-amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPINONEDS4D82BC1BName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPINONEDS4D82BC1BName"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthauthenticatedUserRole53E6BCC3Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthauthenticatedUserRole53E6BCC3Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthunauthenticatedUserRole28ED0921Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthunauthenticatedUserRole28ED0921Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthIdentityPool41DD6AF1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthIdentityPool41DD6AF1Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/UserProfile.NestedStack/UserProfile.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          },
+          {
+            "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+            "data": 2
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/modelIntrospectionSchemaBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketF566B665"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/GraphqlAccessPolicy1/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GraphqlAccessPolicy11EF5618C"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthUserPool243AD0EDRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthUserPool243AD0EDRef"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthauthenticatedUserRole53E6BCC3Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthauthenticatedUserRole53E6BCC3Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthunauthenticatedUserRole28ED0921Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthunauthenticatedUserRole28ED0921Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/reference-to-amplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputs.amplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthIdentityPool41DD6AF1Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cauthNestedStackauthNestedStackResource7C15427FOutputsamplifyprofilesappclintsandbox71fbfeac2cauthamplifyAuthIdentityPool41DD6AF1Ref"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/reference-to-amplifyprofilesappclintsandbox71fbfeac2cfunctionNestedStackfunctionNestedStackResource8C580D68Outputs.amplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaServiceRoleEBD5F6EERef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappclintsandbox71fbfeac2cfunctionNestedStackfunctionNestedStackResource8C580D68Outputsamplifyprofilesappclintsandbox71fbfeac2cfunctionpostconfirmationlambdaServiceRoleEBD5F6EERef"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27ApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27ApiId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27GraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIAD2D0E27GraphQLUrl"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB12FEC031DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB12FEC031DestinationBucketArn"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data/amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIDefaultApiKeyD6E1432AApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappclintsandbox71fbfeac2cdataamplifyDataGraphQLAPIDefaultApiKeyD6E1432AApiKey"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/awsAppsyncApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiKey"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-profilesapp-clint-sandbox-71fbfeac2c/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-profilesapp-clint-sandbox-71fbfeac2c"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  },
+  "minimumCliVersion": "2.1005.0"
+}
