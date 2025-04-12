@@ -44,10 +44,8 @@ export default function App() {
       width="70%"
       margin="0 auto"
     >
-      <Heading level={1}>My Profile</Heading>
-
+      <Heading level={1}>Clinton Nguyen</Heading>
       <Divider />
-
       <Grid
         margin="3rem 0"
         autoFlow="column"
